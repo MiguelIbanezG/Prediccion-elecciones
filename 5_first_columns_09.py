@@ -2,8 +2,8 @@ import csv
 import pandas as pd
 
 # Parámetros del archivo de entrada y salida
-nombre_fichero_dat = "02199603_MESA/10029603.DAT"  # Ajustar según la elección específica
-nombre_fichero_csv = "Inicio/eleccionesDB.csv"
+nombre_fichero_dat = "02199603_MESA/09029603.DAT"  # Ajustar según la elección específica
+nombre_fichero_csv = "eleccionesDB09.csv"
 
 dat_columns = {
     "tipo_eleccion": (1, 2),
@@ -16,8 +16,18 @@ dat_columns = {
     "distrito": (17, 18),
     "codigo_seccion": (19, 22),
     "codigo_mesa": (23, 23),
-    "codigo_candidatura": (24, 29),
-    "votos": (30, 36),
+    "censo_ine": (24, 30),
+    "censo_escrutinio": (31, 37),
+    "censo_cere": (38, 44),
+    "total_votantes": (45, 51),
+    "votantes_1er": (52, 58),
+    "votantes_2do": (59, 65),
+    "votos_en_blanco": (66, 72),
+    "votos_nulos": (73, 79),
+    "votos_a_candidaturas": (80, 86),
+    "votos_afirmativos_referendum": (87, 93),
+    "votos_negativos_referendum": (94, 100),
+    "datos_oficiales": (101, 101),
 }
 
 def extraer_valor(linea, inicio, fin):
