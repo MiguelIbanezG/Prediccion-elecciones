@@ -1,0 +1,27 @@
+Creación Base de datos.
+
+Primero llenamos un fichero elecciones09.csv con el codigo de Mesa, Municipio, Provincia y Comunidad de cada Año con el fichero 09xxxxxx.DAT (49.000 registros por año):
+
+ 	python3 llenar_codigos.py
+
+Despues uso el fichero 03xxxxxx.DAT para extraer los partidos que se presentan, y se crea partidos_clasificado.csv:
+
+ 	python3 crear_csv_partidos.py
+ 	
+Despues se modifica partidos_clasificado.csv para llena la columna "Clasificacion", para eso se calsidica cada partido uno individualmente en Izquierdas, Derechas, Centro Izquierda, Centro Derecha, Regionalista Izquierda o Regionalista Derecha.
+
+ 
+
+Despues usamos el fichero 10xxxxxx.DAT y el elecciones09.csv de los partidos clasificados para llenar otro elecciones10.csv con el codigo de Mesa, Municipio, Provincia, Comunidad, Votos Izquierda, Votos Derecha, Votos Centro Izquierda, Votos Centro Derecha, Votos Regionalista Izquierda y Votos Regionalista Derecha de cada Año (607.000 registros por año):
+
+	python3 llenar_votos10DAT.py
+	
+Despues con elecciones10.csv se llenan los columnas Votos Izquierda, Votos Derecha, Votos Centro Izquierda, Votos Centro Derecha, Votos Regionalista Izquierda y Votos Regionalista Derecha de cada Año de elecciones09.csv para agrupar los votos (no se pierden datos y se reduce el numero de registros de 607.000 por año a 49.000 por año)
+	
+	python3 10_09.py
+
+Despues de eliminan los duplicados (mismo año, mesa, comunidad, provincia y municipio) de elecciones09.csv, se reducen registros sin perder datos, de 49.000 a 13.000 registros por año 
+
+	python3 eliminar_duplicados.py
+
+
