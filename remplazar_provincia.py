@@ -16,12 +16,12 @@ codigo_a_provincia = {
 }
 
 # Cargar el archivo CSV
-df = pd.read_csv('eleccionesDB.csv', dtype=str)
+df = pd.read_csv('eleccionesDB_fin.csv', dtype=str)
 
 # Reemplazar los códigos de provincia por los nombres
 df['Provincia'] = df['Provincia'].map(codigo_a_provincia)
 
 # Guardar el DataFrame actualizado en un nuevo archivo CSV
-df.to_csv('eleccionesDB.csv', index=False, encoding='utf-8')
+df.to_csv('eleccionesDB_fin.csv', index=False, encoding='utf-8')
 
 print("El archivo CSV ha sido actualizado con los nombres de las provincias.")

@@ -10,7 +10,7 @@ comunidades = {
 }
 
 # Cargar el archivo CSV existente
-ruta_csv = "eleccionesDB.csv"
+ruta_csv = "eleccionesDB_fin.csv"
 df = pd.read_csv(ruta_csv, dtype=str)
 
 # Reemplazar códigos por nombres
