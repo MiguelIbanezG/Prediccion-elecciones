@@ -2,15 +2,22 @@ import csv
 import pandas as pd
 
 # Parámetros del archivo de entrada y salida
-nombre_fichero_dat = "02199603_MESA/09029603.DAT"  # Ajustar según la elección específica
-nombre_fichero_csv = "eleccionesDB.csv"
+nombre_fichero_dat = "02199603_MESA/10029603.DAT"  # Ajustar según la elección específica
+nombre_fichero_csv = "Inicio/eleccionesDB.csv"
 
-# Definición de posiciones según la documentación
-posiciones = {
-    "codigo_mesa": (23, 23),
+dat_columns = {
+    "tipo_eleccion": (1, 2),
+    "año": (3, 6),
+    "mes": (7, 8),
+    "vuelta": (9, 9),
     "codigo_comunidad": (10, 11),
     "codigo_provincia": (12, 13),
     "codigo_municipio": (14, 16),
+    "distrito": (17, 18),
+    "codigo_seccion": (19, 22),
+    "codigo_mesa": (23, 23),
+    "codigo_candidatura": (24, 29),
+    "votos": (30, 36),
 }
 
 def extraer_valor(linea, inicio, fin):
@@ -24,10 +31,10 @@ df = pd.read_csv(nombre_fichero_csv, dtype=str)
 nuevas_filas = []
 with open(nombre_fichero_dat, "r", encoding="latin-1") as infile:
     for linea in infile:
-        codigo_mesa = extraer_valor(linea, *posiciones["codigo_mesa"])
-        codigo_comunidad = extraer_valor(linea, *posiciones["codigo_comunidad"])
-        codigo_provincia = extraer_valor(linea, *posiciones["codigo_provincia"])
-        codigo_municipio = extraer_valor(linea, *posiciones["codigo_municipio"])
+        codigo_mesa = extraer_valor(linea, *dat_columns["codigo_mesa"])
+        codigo_comunidad = extraer_valor(linea, *dat_columns["codigo_comunidad"])
+        codigo_provincia = extraer_valor(linea, *dat_columns["codigo_provincia"])
+        codigo_municipio = extraer_valor(linea, *dat_columns["codigo_municipio"])
         
         nuevas_filas.append(["1996", codigo_mesa, codigo_comunidad, codigo_provincia, codigo_municipio])
 
