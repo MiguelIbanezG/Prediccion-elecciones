@@ -1,5 +1,7 @@
 Creación Base de datos.
 
+Descargamos de la pagina https://infoelectoral.interior.gob.es/es/elecciones-celebradas/area-de-descargas/ los datos de las elecciones de las Mesas del año 1996 hasta el 2023
+
 Primero llenamos un fichero elecciones09.csv con el codigo de Mesa, Municipio, Provincia y Comunidad de cada Año con el fichero 09xxxxxx.DAT (49.000 registros por año):
 
  	python3 llenar_codigos.py
@@ -23,5 +25,17 @@ Despues con elecciones10.csv se llenan los columnas Votos Izquierda, Votos Derec
 Despues de eliminan los duplicados (mismo año, mesa, comunidad, provincia y municipio) de elecciones09.csv, se reducen registros sin perder datos, de 49.000 a 13.000 registros por año 
 
 	python3 eliminar_duplicados.py
+
+Para rellenar la tasa de participación se ha creado otro script que usa los datos de los ficheros .DAT para calcular la participación de cada Provincia crear el fichero participacion.csv
+
+	python3 participacion.py
+
+Para rellenar la Edad Media de cada provincia se ha descargado de la pagina del INE https://www.ine.es/jaxiT3/Tabla.htm?t=3199&L=0 los datos de Edad Media de cada Provincia de cada año (Edad_media_ine.csv), despues se ha creado un script de pythom que rellena nustros csv con esos datos:
+
+	python3 Edad_Media.py
+
+
+
+
 
 
