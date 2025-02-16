@@ -4,9 +4,9 @@ Descargamos de la pagina https://infoelectoral.interior.gob.es/es/elecciones-cel
 
 Primero llenamos un fichero elecciones09.csv con el codigo de Mesa, Municipio, Provincia y Comunidad de cada Año con el fichero 09xxxxxx.DAT (49.000 registros por año):
 
- 	python3 llenar_codigos.py
+ 	python3 llenar_codigos09.py
 
-Despues uso el fichero 03xxxxxx.DAT para extraer los partidos que se presentan, y se crea partidos_clasificado.csv:
+Despues uso el fichero 03xxxxxx.DAT para extraer los partidos que se presentan, y creo el fichero partidos_clasificado.csv:
 
  	python3 crear_csv_partidos.py
  	
@@ -14,11 +14,11 @@ Despues se modifica partidos_clasificado.csv para llena la columna "Clasificacio
 
  
 
-Despues usamos el fichero 10xxxxxx.DAT y el elecciones09.csv de los partidos clasificados para llenar otro elecciones10.csv con el codigo de Mesa, Municipio, Provincia, Comunidad, Votos Izquierda, Votos Derecha, Votos Centro Izquierda, Votos Centro Derecha, Votos Regionalista Izquierda y Votos Regionalista Derecha de cada Año (607.000 registros por año):
+Despues uso el fichero 10xxxxxx.DAT y el elecciones09.csv de los partidos clasificados para llenar otro ficchero llamado elecciones10.csv con el codigo de Mesa, Municipio, Provincia, Comunidad, Votos Izquierda, Votos Derecha, Votos Centro Izquierda, Votos Centro Derecha, Votos Regionalista Izquierda y Votos Regionalista Derecha de cada Año (607.000 registros por año):
 
 	python3 llenar_votos10DAT.py
 	
-Despues con elecciones10.csv se llenan los columnas Votos Izquierda, Votos Derecha, Votos Centro Izquierda, Votos Centro Derecha, Votos Regionalista Izquierda y Votos Regionalista Derecha de cada Año de elecciones09.csv para agrupar los votos (no se pierden datos y se reduce el numero de registros de 607.000 por año a 49.000 por año)
+Despues con elecciones10.csv se llenan las columnas Votos Izquierda, Votos Derecha, Votos Centro Izquierda, Votos Centro Derecha, Votos Regionalista Izquierda y Votos Regionalista Derecha de cada Año de elecciones09.csv para agrupar los votos por cada mesa (no se pierden datos y se reduce el numero de registros de 607.000 por año a 49.000 por año)
 	
 	python3 10_09.py
 
@@ -30,11 +30,13 @@ Para rellenar la tasa de participación se ha creado otro script que usa los dat
 
 	python3 participacion.py
 
-Para rellenar la Edad Media de cada provincia se ha descargado de la pagina del INE https://www.ine.es/jaxiT3/Tabla.htm?t=3199&L=0 los datos de Edad Media de cada Provincia de cada año (Edad_media_ine.csv), despues se ha creado un script de pythom que rellena nustros csv con esos datos:
+Para rellenar la Edad Media de cada provincia se ha descargado de la pagina del INE https://www.ine.es/jaxiT3/Tabla.htm?t=3199&L=0 los datos de Edad Media de cada Provincia de cada año (Edad_media_ine.csv), despues se ha creado un script de pythom que rellena el csv con esos datos (edad_media.csv):
 
 	python3 Edad_Media.py
 
+Para Rellenar las ecolarización de cada provincia, se descarga del INE (https://www.ine.es/jaxi/Datos.htm?path=/t25/p444/a2003/l0/&file=educ019.px) en nivel de alfabetismo de cada provincia por año y se guarda en el csv educ019.csv, luego se crea un script para llenar nuestro csv con esos datos (escaolrización_bueno.csv)
 
+	python3 llenar_escolari.py
 
 
 

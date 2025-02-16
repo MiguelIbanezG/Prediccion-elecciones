@@ -1,8 +1,8 @@
 import pandas as pd
 
 # Parámetros del archivo de entrada y salida
-nombre_fichero_csv = "eleccionesDB09.csv"
-nombre_fichero_salida = "eleccionesDB_part.csv"
+nombre_fichero_csv = "edad_media.csv"
+nombre_fichero_salida = "ganadora.csv"
 
 # Definir las candidaturas ganadoras por año (debes modificar esta lista según los datos reales)
 candidaturas_ganadoras = {
