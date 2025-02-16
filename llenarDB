@@ -38,10 +38,11 @@ Para Rellenar las ecolarización de cada provincia, se descarga del INE (https:/
 
 	python3 llenar_escolari.py
 
-	Para Rellenar la esperanza de vida de cada provincia, se descarga del INE (https://www.ine.es/jaxiT3/Datos.htm?t=1485) la esperanza de vida de cada provincia por año y se guarda en el csv esperanzaVida.csv, luego se crea un script para llenar nuestro csv con esos datos (esperanza.csv)
+Para Rellenar la esperanza de vida de cada provincia, se descarga del INE (https://www.ine.es/jaxiT3/Datos.htm?t=1485) la esperanza de vida de cada provincia por año y se guarda en el csv esperanzaVida.csv, luego se crea un script para llenar nuestro csv con esos datos (esperanza.csv)
 
 	python3 esperanza_vida.py
 
+Para Rellenar los habitantes por provincia, se descarga del INE (https://www.ine.es/jaxiT3/Datos.htm?t=2852) la poblacion de cada provincia por año y se guarda en el csv poblacion.csv, luego se crea un script para llenar nuestro csv con esos datos (habitantes.csv)
 
-
+		python3 habitantes.py
 
