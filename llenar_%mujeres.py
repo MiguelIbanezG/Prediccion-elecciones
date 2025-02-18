@@ -25,7 +25,15 @@ if 'Año' not in df_votos.columns:
 
 df_votos['Provincia'] = df_votos['Provincia'].astype(str).str.zfill(2)
 df_votos['Año'] = df_votos['Año'].astype(str)
-df_votos['% de mujeres'] = df_votos.apply(lambda row: mujeres_dict.get((row['Provincia'], str(int(row['Año']) + 2)), None), axis=1)
+
+def obtener_porcentaje(provincia, año):
+    if año == '1996':
+        return mujeres_dict.get((provincia, '1998'), None)
+    return mujeres_dict.get((provincia, año), None)
+
+df_votos['% de mujeres'] = df_votos.apply(lambda row: obtener_porcentaje(row['Provincia'], row['Año']), axis=1)
+
+# df_votos['% de mujeres'] = df_votos.apply(lambda row: mujeres_dict.get((row['Provincia'], str(int(row['Año']) + 2)), None), axis=1)
 
 df_votos.to_csv('%mujeres.csv', index=False, encoding='latin1')
 print("✅ CSV '%mujeres.csv' generado con éxito.")
