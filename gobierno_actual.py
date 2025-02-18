@@ -6,13 +6,13 @@ nombre_fichero_salida = "ganadora.csv"
 
 # Definir las candidaturas ganadoras por año (debes modificar esta lista según los datos reales)
 candidaturas_ganadoras = {
-    "1996": "PP",
+    "1996": "PSOE",
     "2000": "PP",
-    "2004": "PSOE",
+    "2004": "PP",
     "2008": "PSOE",
-    "2011": "PP",
+    "2011": "PSOE",
     "2015": "PP",
-    "2019": "PSOE",
+    "2019": "PP",
     "2023": "PSOE"
 }
 

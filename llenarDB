@@ -66,3 +66,11 @@ Para Rellenar la inmigracion por provincia se descarga del INE (https://www.ine.
 Para Rellenar la Tasa de pobreza por comunidad (no hay datos oficiales por provincia ni anteriores a 2008) se descarga del INE (https://www.ine.es/jaxiT3/Tabla.htm?t=9963) el porcentaje de poblacion en riesgo de pobreza por comunidad y se guarda en el csv tasa_pobreza.csv, luego se crea un script para llenar nuestro csv con esos datos (pobreza.csv)
 
 	python3 tasa_pobreza.py
+
+Para Rellenar la Tasa de paro por provincia se descarga del INE (https://www.ine.es/jaxiT3/Datos.htm?t=3996   https://www.ine.es/jaxiT3/Datos.htm?t=5399) la tasa de paro y se guarda en los en el csv paro_2005_2013.csv y paro_2021_2023.csv, luego se crea un script para llenar nuestro csv con esos datos (paro.csv)
+
+	python3 desempleo.py 
+
+Para Rellenar la criminalidad provincia se descarga del INE (https://www.ine.es/jaxiT3/Datos.htm?t=49055) el numero de delitos por por proviencia y se guarda en los en el csv criminalidad_2013.csv, luego se crea un script para llenar nuestro csv con esos datos (criminalidad.csv)
+
+	python3 criminalidad.py 
