@@ -22,7 +22,7 @@ Despues con elecciones10.csv se llenan las columnas Votos Izquierda, Votos Derec
 	
 	python3 10_09.py
 
-Despues de eliminan los duplicados (mismo año, mesa, comunidad, provincia y municipio) de elecciones09.csv, se reducen registros sin perder datos, de 49.000 a 13.000 registros por año 
+Despues de eliminan los duplicados (mismo año, mesa, comunidad, provincia y municipio) de elecciones09.csv, se reducen registros sin perder datos, de 49.000 a 13.000 registros por año (eleccionesDB09_sindup.csv)
 
 	python3 eliminar_duplicados.py
 
@@ -46,3 +46,15 @@ Para Rellenar los habitantes por provincia, se descarga del INE (https://www.ine
 
 		python3 habitantes.py
 
+Para Rellenar el acceso a internet por comunidad (no se han encontrado datos oficiales por provincia) see descarga del INE (https://www.ine.es/jaxi/Tabla.htm?tpx=39494&L=0) el porcenatje de viviendas con acceso a internet y se guarda en el csv viviendas_con_internet.csv, luego se crea un script para llenar nuestro csv con esos datos (acceso_a_internet.csv)
+
+	python3 internet.py
+
+Para rellenar el % de mujeres se hace en varios pasos, primero se descarga del INE un csv con la pblacion total y la de mujeres (https://www.ine.es/jaxi/Datos.htm?path=/t20/e245/p08/l0/&file=03002.px)
+el csv se llama muejeres_y_total.csv. Despues se crea otro csv con el %de mujeres por provincia y de todos los años:
+
+	python3 crear_csv_%mujeres.py
+
+Luego con ese csv se rellan nuetro csv con otro script  %mujeres.csv
+
+	python3 llenar_%mujeres.py
