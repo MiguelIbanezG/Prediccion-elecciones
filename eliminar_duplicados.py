@@ -2,7 +2,7 @@ import pandas as pd
 
 # Parámetros del archivo de entrada y salida
 nombre_fichero_csv = "eleccionesDB09.csv"
-nombre_fichero_salida = "eleccionesDB_fin.csv"
+nombre_fichero_salida = "eleccionesDB09_sindup.csv"
 
 # Cargar el archivo CSV
 df = pd.read_csv(nombre_fichero_csv, dtype=str)
