@@ -63,4 +63,6 @@ Para Rellenar la inmigracion por provincia se descarga del INE (https://www.ine.
 
 	python3 inmigracion.py
 
-Tasa de pobrezahttps://www.ine.es/jaxiT3/Tabla.htm?t=9963
+Para Rellenar la Tasa de pobreza por comunidad (no hay datos oficiales por provincia ni anteriores a 2008) se descarga del INE (https://www.ine.es/jaxiT3/Tabla.htm?t=9963) el porcentaje de poblacion en riesgo de pobreza por comunidad y se guarda en el csv tasa_pobreza.csv, luego se crea un script para llenar nuestro csv con esos datos (pobreza.csv)
+
+	python3 tasa_pobreza.py
