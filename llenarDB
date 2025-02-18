@@ -58,3 +58,9 @@ el csv se llama muejeres_y_total.csv. Despues se crea otro csv con el %de mujere
 Luego con ese csv se rellan nuetro csv con otro script  %mujeres.csv
 
 	python3 llenar_%mujeres.py
+
+Para Rellenar la inmigracion por provincia se descarga del INE (https://www.ine.es/jaxi/Tabla.htm?path=/t20/e245/p08/l0/&file=03005.px) el numero de inigrantes por provincia y se guarda en el csv inmigracion.csv, luego se crea un script para llenar nuestro csv con esos datos (inmigracion_f.csv)
+
+	python3 inmigracion.py
+
+Tasa de pobrezahttps://www.ine.es/jaxiT3/Tabla.htm?t=9963
