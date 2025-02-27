@@ -10,12 +10,10 @@ archivos_dat = {
     "2011": "../Datos_Mesas/02201111_MESA/09021111.DAT",
     "2015": "../Datos_Mesas/02201512_MESA/09021512.DAT",
     "2016": "../Datos_Mesas/02201606_MESA/09021606.DAT",
-    "2019": "../Datos_Mesas/02201904_MESA/09021904.DAT",
-    "2019": "../Datos_Mesas/02201911_MESA/09021911.DAT",
+    "2019a": "../Datos_Mesas/02201904_MESA/09021904.DAT",
+    "2019b": "../Datos_Mesas/02201911_MESA/09021911.DAT",
     "2023": "../Datos_Mesas/02202307_MESA/09022307.DAT"
 }
-
-nombre_fichero_csv = "00_DB_vacia.csv"
 
 dat_columns = {
     "tipo_eleccion": (1, 2),
@@ -47,7 +45,7 @@ def extraer_valor(linea, inicio, fin):
     return linea[inicio-1:fin].strip()
 
 # Cargar el archivo CSV existente
-df = pd.read_csv(nombre_fichero_csv, dtype=str)
+df = pd.read_csv("00_DB_vacia.csv", dtype=str)
 
 # Procesar todos los archivos .DAT
 nuevas_filas = []
