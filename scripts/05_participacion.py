@@ -16,10 +16,16 @@ archivos_dat = {
 }
 
 # 📌 Columnas de los archivos .DAT
-dat_columns = {
+dat_columns_07 = {
     "codigo_provincia": (12, 13),
     "censo_ine": (78, 85),
-    "total_votantes": (110, 117),
+    "total_votantes": (142, 149),  # Usamos la posición correcta de votos a candidaturas
+}
+
+dat_columns_05 = {
+    "codigo_provincia": (12, 13),
+    "censo_ine": (142, 149),  # Censo del INE en 05xxaamm.DAT
+    "total_votantes": (206, 213),  # Votos a candidaturas
 }
 
 # 📌 Diccionario para almacenar la tasa de participación por provincia y año
@@ -33,24 +39,34 @@ for año, ruta_ficheros in archivos_dat.items():
     
     # 📂 Buscar archivos 05xxaamm.DAT y 07xxaamm.DAT
     for fichero in os.listdir(ruta_ficheros):
-        if fichero.startswith(("05", "07")) and fichero.endswith(".DAT"):
-            with open(os.path.join(ruta_ficheros, fichero), "r", encoding="latin-1") as file:
-                for linea in file:
-                    provincia = linea[dat_columns["codigo_provincia"][0] - 1:dat_columns["codigo_provincia"][1]].strip()
-                    censo_str = linea[dat_columns["censo_ine"][0] - 1:dat_columns["censo_ine"][1]].strip()
-                    votantes_str = linea[dat_columns["total_votantes"][0] - 1:dat_columns["total_votantes"][1]].strip()
+        if fichero.startswith("07") and fichero.endswith(".DAT"):
+            dat_columns = dat_columns_07  # Configuración para 07xxaamm.DAT
+        elif fichero.startswith("05") and fichero.endswith(".DAT"):
+            dat_columns = dat_columns_05  # Configuración para 05xxaamm.DAT
+        else:
+            continue  # Ignorar otros archivos
 
-                    # Validar que los valores sean numéricos antes de convertirlos a int
-                    if not censo_str.isdigit() or not votantes_str.isdigit():
-                        continue
+        with open(os.path.join(ruta_ficheros, fichero), "r", encoding="latin-1") as file:
+            for linea in file:
+                provincia = linea[dat_columns["codigo_provincia"][0] - 1:dat_columns["codigo_provincia"][1]].strip()
+                censo_str = linea[dat_columns["censo_ine"][0] - 1:dat_columns["censo_ine"][1]].strip()
+                votantes_str = linea[dat_columns["total_votantes"][0] - 1:dat_columns["total_votantes"][1]].strip()
 
-                    censo = int(censo_str)
-                    votantes = int(votantes_str)
+                # Validar que los valores sean numéricos antes de convertirlos a int
+                if not censo_str.isdigit() or not votantes_str.isdigit():
+                    continue
 
-                    if provincia and censo > 0:
-                        tasa_participacion = (votantes / censo) * 100
-                        tasa_participacion_provincia[(año, provincia.zfill(2))] = round(tasa_participacion, 2)
+                censo = int(censo_str)
+                votantes = int(votantes_str)
 
+                if provincia and censo > 0:
+                    tasa_participacion = (votantes / censo) * 100
+                    tasa_participacion_provincia[(año, provincia.zfill(2))] = round(tasa_participacion, 2)
+
+# 📌 Mostrar las tasas extraídas para depuración
+print("📊 Tasas de Participación extraídas:")
+for (año, prov), tasa in tasa_participacion_provincia.items():
+    print(f"🔹 Año {año} - Provincia {prov}: {tasa}%")
 
 # 📂 Cargar el CSV base
 df = pd.read_csv("05_votos_sin_duplicados.csv", dtype=str)
@@ -68,6 +84,6 @@ df["Tasa de Participacion"] = df.apply(
 )
 
 # 📂 Guardar el CSV modificado
-df.to_csv("participacion.csv", index=False, encoding="utf-8")
+df.to_csv("06_participacion.csv", index=False, encoding="utf-8")
 
-print("✅ CSV modificado guardado como 'participacion.csv'")
+print("✅ CSV modificado guardado como '06_participacion.csv'")
