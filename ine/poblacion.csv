@@ -1,4 +1,5 @@
 Provincias;Sexo;Periodo;Total
+Total;Total;2023;47.679.245
 Total;Total;2021;47.385.107
 Total;Total;2020;47.450.795
 Total;Total;2019;47.026.208
@@ -25,6 +26,7 @@ Total;Total;1999;40.202.160
 Total;Total;1998;39.852.651
 Total;Total;1997;""
 Total;Total;1996;39.669.394
+02 Albacete;Total;2023;388.390
 02 Albacete;Total;2021;386.464
 02 Albacete;Total;2020;388.270
 02 Albacete;Total;2019;388.167
@@ -51,6 +53,7 @@ Total;Total;1996;39.669.394
 02 Albacete;Total;1998;358.597
 02 Albacete;Total;1997;""
 02 Albacete;Total;1996;359.010
+03 Alicante/Alacant;Total;2023;1.891.445
 03 Alicante/Alacant;Total;2021;1.881.762
 03 Alicante/Alacant;Total;2020;1.879.888
 03 Alicante/Alacant;Total;2019;1.858.683
@@ -77,58 +80,61 @@ Total;Total;1996;39.669.394
 03 Alicante/Alacant;Total;1998;1.388.933
 03 Alicante/Alacant;Total;1997;""
 03 Alicante/Alacant;Total;1996;1.379.762
-04 Almería;Total;2021;731.792
-04 Almería;Total;2020;727.945
-04 Almería;Total;2019;716.820
-04 Almería;Total;2018;709.340
-04 Almería;Total;2017;706.672
-04 Almería;Total;2016;704.297
-04 Almería;Total;2015;701.211
-04 Almería;Total;2014;701.688
-04 Almería;Total;2013;699.329
-04 Almería;Total;2012;704.219
-04 Almería;Total;2011;702.819
-04 Almería;Total;2010;695.560
-04 Almería;Total;2009;684.426
-04 Almería;Total;2008;667.635
-04 Almería;Total;2007;646.633
-04 Almería;Total;2006;635.850
-04 Almería;Total;2005;612.315
-04 Almería;Total;2004;580.077
-04 Almería;Total;2003;565.310
-04 Almería;Total;2002;546.498
-04 Almería;Total;2001;533.168
-04 Almería;Total;2000;518.229
-04 Almería;Total;1999;512.843
-04 Almería;Total;1998;505.448
-04 Almería;Total;1997;""
-04 Almería;Total;1996;501.761
-01 Araba/Álava;Total;2021;333.626
-01 Araba/Álava;Total;2020;333.940
-01 Araba/Álava;Total;2019;331.549
-01 Araba/Álava;Total;2018;328.868
-01 Araba/Álava;Total;2017;326.574
-01 Araba/Álava;Total;2016;324.126
-01 Araba/Álava;Total;2015;323.648
-01 Araba/Álava;Total;2014;321.932
-01 Araba/Álava;Total;2013;321.417
-01 Araba/Álava;Total;2012;322.557
-01 Araba/Álava;Total;2011;319.227
-01 Araba/Álava;Total;2010;317.352
-01 Araba/Álava;Total;2009;313.819
-01 Araba/Álava;Total;2008;309.635
-01 Araba/Álava;Total;2007;305.459
-01 Araba/Álava;Total;2006;301.926
-01 Araba/Álava;Total;2005;299.957
-01 Araba/Álava;Total;2004;295.905
-01 Araba/Álava;Total;2003;294.360
-01 Araba/Álava;Total;2002;291.860
-01 Araba/Álava;Total;2001;288.793
-01 Araba/Álava;Total;2000;286.497
-01 Araba/Álava;Total;1999;285.748
-01 Araba/Álava;Total;1998;284.595
-01 Araba/Álava;Total;1997;""
-01 Araba/Álava;Total;1996;281.821
+04 Almerï¿½a;Total;2023;734.475
+04 Almerï¿½a;Total;2021;731.792
+04 Almerï¿½a;Total;2020;727.945
+04 Almerï¿½a;Total;2019;716.820
+04 Almerï¿½a;Total;2018;709.340
+04 Almerï¿½a;Total;2017;706.672
+04 Almerï¿½a;Total;2016;704.297
+04 Almerï¿½a;Total;2015;701.211
+04 Almerï¿½a;Total;2014;701.688
+04 Almerï¿½a;Total;2013;699.329
+04 Almerï¿½a;Total;2012;704.219
+04 Almerï¿½a;Total;2011;702.819
+04 Almerï¿½a;Total;2010;695.560
+04 Almerï¿½a;Total;2009;684.426
+04 Almerï¿½a;Total;2008;667.635
+04 Almerï¿½a;Total;2007;646.633
+04 Almerï¿½a;Total;2006;635.850
+04 Almerï¿½a;Total;2005;612.315
+04 Almerï¿½a;Total;2004;580.077
+04 Almerï¿½a;Total;2003;565.310
+04 Almerï¿½a;Total;2002;546.498
+04 Almerï¿½a;Total;2001;533.168
+04 Almerï¿½a;Total;2000;518.229
+04 Almerï¿½a;Total;1999;512.843
+04 Almerï¿½a;Total;1998;505.448
+04 Almerï¿½a;Total;1997;""
+04 Almerï¿½a;Total;1996;501.761
+01 Araba/ï¿½lava;Total;2023;335.467
+01 Araba/ï¿½lava;Total;2021;333.626
+01 Araba/ï¿½lava;Total;2020;333.940
+01 Araba/ï¿½lava;Total;2019;331.549
+01 Araba/ï¿½lava;Total;2018;328.868
+01 Araba/ï¿½lava;Total;2017;326.574
+01 Araba/ï¿½lava;Total;2016;324.126
+01 Araba/ï¿½lava;Total;2015;323.648
+01 Araba/ï¿½lava;Total;2014;321.932
+01 Araba/ï¿½lava;Total;2013;321.417
+01 Araba/ï¿½lava;Total;2012;322.557
+01 Araba/ï¿½lava;Total;2011;319.227
+01 Araba/ï¿½lava;Total;2010;317.352
+01 Araba/ï¿½lava;Total;2009;313.819
+01 Araba/ï¿½lava;Total;2008;309.635
+01 Araba/ï¿½lava;Total;2007;305.459
+01 Araba/ï¿½lava;Total;2006;301.926
+01 Araba/ï¿½lava;Total;2005;299.957
+01 Araba/ï¿½lava;Total;2004;295.905
+01 Araba/ï¿½lava;Total;2003;294.360
+01 Araba/ï¿½lava;Total;2002;291.860
+01 Araba/ï¿½lava;Total;2001;288.793
+01 Araba/ï¿½lava;Total;2000;286.497
+01 Araba/ï¿½lava;Total;1999;285.748
+01 Araba/ï¿½lava;Total;1998;284.595
+01 Araba/ï¿½lava;Total;1997;""
+01 Araba/ï¿½lava;Total;1996;281.821
+33 Asturias;Total;2023;1.016.356
 33 Asturias;Total;2021;1.011.792
 33 Asturias;Total;2020;1.018.784
 33 Asturias;Total;2019;1.022.800
@@ -155,32 +161,34 @@ Total;Total;1996;39.669.394
 33 Asturias;Total;1998;1.081.834
 33 Asturias;Total;1997;""
 33 Asturias;Total;1996;1.087.885
-05 Ávila;Total;2021;158.421
-05 Ávila;Total;2020;157.664
-05 Ávila;Total;2019;157.640
-05 Ávila;Total;2018;158.498
-05 Ávila;Total;2017;160.700
-05 Ávila;Total;2016;162.514
-05 Ávila;Total;2015;164.925
-05 Ávila;Total;2014;167.015
-05 Ávila;Total;2013;168.825
-05 Ávila;Total;2012;171.265
-05 Ávila;Total;2011;172.704
-05 Ávila;Total;2010;171.896
-05 Ávila;Total;2009;171.680
-05 Ávila;Total;2008;171.815
-05 Ávila;Total;2007;168.638
-05 Ávila;Total;2006;167.818
-05 Ávila;Total;2005;167.032
-05 Ávila;Total;2004;166.108
-05 Ávila;Total;2003;165.480
-05 Ávila;Total;2002;165.138
-05 Ávila;Total;2001;163.885
-05 Ávila;Total;2000;164.991
-05 Ávila;Total;1999;166.259
-05 Ávila;Total;1998;167.132
-05 Ávila;Total;1997;""
-05 Ávila;Total;1996;169.342
+05 ï¿½vila;Total;2023;159.557
+05 ï¿½vila;Total;2021;158.421
+05 ï¿½vila;Total;2020;157.664
+05 ï¿½vila;Total;2019;157.640
+05 ï¿½vila;Total;2018;158.498
+05 ï¿½vila;Total;2017;160.700
+05 ï¿½vila;Total;2016;162.514
+05 ï¿½vila;Total;2015;164.925
+05 ï¿½vila;Total;2014;167.015
+05 ï¿½vila;Total;2013;168.825
+05 ï¿½vila;Total;2012;171.265
+05 ï¿½vila;Total;2011;172.704
+05 ï¿½vila;Total;2010;171.896
+05 ï¿½vila;Total;2009;171.680
+05 ï¿½vila;Total;2008;171.815
+05 ï¿½vila;Total;2007;168.638
+05 ï¿½vila;Total;2006;167.818
+05 ï¿½vila;Total;2005;167.032
+05 ï¿½vila;Total;2004;166.108
+05 ï¿½vila;Total;2003;165.480
+05 ï¿½vila;Total;2002;165.138
+05 ï¿½vila;Total;2001;163.885
+05 ï¿½vila;Total;2000;164.991
+05 ï¿½vila;Total;1999;166.259
+05 ï¿½vila;Total;1998;167.132
+05 ï¿½vila;Total;1997;""
+05 ï¿½vila;Total;1996;169.342
+06 Badajoz;Total;2023;670.242
 06 Badajoz;Total;2021;669.943
 06 Badajoz;Total;2020;672.137
 06 Badajoz;Total;2019;673.559
@@ -207,6 +215,7 @@ Total;Total;1996;39.669.394
 06 Badajoz;Total;1998;663.803
 06 Badajoz;Total;1997;""
 06 Badajoz;Total;1996;656.848
+07 Balears, Illes;Total;2023;1.175.245
 07 Balears, Illes;Total;2021;1.173.008
 07 Balears, Illes;Total;2020;1.171.543
 07 Balears, Illes;Total;2019;1.149.460
@@ -233,6 +242,7 @@ Total;Total;1996;39.669.394
 07 Balears, Illes;Total;1998;796.483
 07 Balears, Illes;Total;1997;""
 07 Balears, Illes;Total;1996;760.379
+08 Barcelona;Total;2023;5.718.234
 08 Barcelona;Total;2021;5.714.730
 08 Barcelona;Total;2020;5.743.402
 08 Barcelona;Total;2019;5.664.579
@@ -259,6 +269,7 @@ Total;Total;1996;39.669.394
 08 Barcelona;Total;1998;4.666.271
 08 Barcelona;Total;1997;""
 08 Barcelona;Total;1996;4.628.277
+48 Bizkaia;Total;2023;1.155.467
 48 Bizkaia;Total;2021;1.154.334
 48 Bizkaia;Total;2020;1.159.443
 48 Bizkaia;Total;2019;1.152.651
@@ -285,6 +296,7 @@ Total;Total;1996;39.669.394
 48 Bizkaia;Total;1998;1.137.594
 48 Bizkaia;Total;1997;""
 48 Bizkaia;Total;1996;1.140.026
+09 Burgos;Total;2023;357.567
 09 Burgos;Total;2021;356.055
 09 Burgos;Total;2020;357.650
 09 Burgos;Total;2019;356.958
@@ -311,58 +323,61 @@ Total;Total;1996;39.669.394
 09 Burgos;Total;1998;346.355
 09 Burgos;Total;1997;""
 09 Burgos;Total;1996;350.074
-10 Cáceres;Total;2021;389.558
-10 Cáceres;Total;2020;391.850
-10 Cáceres;Total;2019;394.151
-10 Cáceres;Total;2018;396.487
-10 Cáceres;Total;2017;400.036
-10 Cáceres;Total;2016;403.665
-10 Cáceres;Total;2015;406.267
-10 Cáceres;Total;2014;408.703
-10 Cáceres;Total;2013;410.275
-10 Cáceres;Total;2012;413.597
-10 Cáceres;Total;2011;415.446
-10 Cáceres;Total;2010;415.083
-10 Cáceres;Total;2009;413.633
-10 Cáceres;Total;2008;412.498
-10 Cáceres;Total;2007;411.531
-10 Cáceres;Total;2006;412.899
-10 Cáceres;Total;2005;412.580
-10 Cáceres;Total;2004;411.390
-10 Cáceres;Total;2003;410.762
-10 Cáceres;Total;2002;410.242
-10 Cáceres;Total;2001;409.130
-10 Cáceres;Total;2000;407.546
-10 Cáceres;Total;1999;408.949
-10 Cáceres;Total;1998;405.616
-10 Cáceres;Total;1997;""
-10 Cáceres;Total;1996;413.396
-11 Cádiz;Total;2021;1.245.960
-11 Cádiz;Total;2020;1.244.049
-11 Cádiz;Total;2019;1.240.155
-11 Cádiz;Total;2018;1.238.714
-11 Cádiz;Total;2017;1.239.435
-11 Cádiz;Total;2016;1.239.889
-11 Cádiz;Total;2015;1.240.284
-11 Cádiz;Total;2014;1.240.175
-11 Cádiz;Total;2013;1.238.492
-11 Cádiz;Total;2012;1.245.164
-11 Cádiz;Total;2011;1.243.519
-11 Cádiz;Total;2010;1.236.739
-11 Cádiz;Total;2009;1.230.594
-11 Cádiz;Total;2008;1.220.467
-11 Cádiz;Total;2007;1.207.343
-11 Cádiz;Total;2006;1.194.062
-11 Cádiz;Total;2005;1.180.817
-11 Cádiz;Total;2004;1.164.374
-11 Cádiz;Total;2003;1.155.724
-11 Cádiz;Total;2002;1.140.793
-11 Cádiz;Total;2001;1.131.346
-11 Cádiz;Total;2000;1.125.105
-11 Cádiz;Total;1999;1.119.802
-11 Cádiz;Total;1998;1.107.484
-11 Cádiz;Total;1997;""
-11 Cádiz;Total;1996;1.105.762
+10 Cï¿½ceres;Total;2021;391.224
+10 Cï¿½ceres;Total;2021;389.558
+10 Cï¿½ceres;Total;2020;391.850
+10 Cï¿½ceres;Total;2019;394.151
+10 Cï¿½ceres;Total;2018;396.487
+10 Cï¿½ceres;Total;2017;400.036
+10 Cï¿½ceres;Total;2016;403.665
+10 Cï¿½ceres;Total;2015;406.267
+10 Cï¿½ceres;Total;2014;408.703
+10 Cï¿½ceres;Total;2013;410.275
+10 Cï¿½ceres;Total;2012;413.597
+10 Cï¿½ceres;Total;2011;415.446
+10 Cï¿½ceres;Total;2010;415.083
+10 Cï¿½ceres;Total;2009;413.633
+10 Cï¿½ceres;Total;2008;412.498
+10 Cï¿½ceres;Total;2007;411.531
+10 Cï¿½ceres;Total;2006;412.899
+10 Cï¿½ceres;Total;2005;412.580
+10 Cï¿½ceres;Total;2004;411.390
+10 Cï¿½ceres;Total;2003;410.762
+10 Cï¿½ceres;Total;2002;410.242
+10 Cï¿½ceres;Total;2001;409.130
+10 Cï¿½ceres;Total;2000;407.546
+10 Cï¿½ceres;Total;1999;408.949
+10 Cï¿½ceres;Total;1998;405.616
+10 Cï¿½ceres;Total;1997;""
+10 Cï¿½ceres;Total;1996;413.396
+11 Cï¿½diz;Total;2023;1.247.354
+11 Cï¿½diz;Total;2021;1.245.960
+11 Cï¿½diz;Total;2020;1.244.049
+11 Cï¿½diz;Total;2019;1.240.155
+11 Cï¿½diz;Total;2018;1.238.714
+11 Cï¿½diz;Total;2017;1.239.435
+11 Cï¿½diz;Total;2016;1.239.889
+11 Cï¿½diz;Total;2015;1.240.284
+11 Cï¿½diz;Total;2014;1.240.175
+11 Cï¿½diz;Total;2013;1.238.492
+11 Cï¿½diz;Total;2012;1.245.164
+11 Cï¿½diz;Total;2011;1.243.519
+11 Cï¿½diz;Total;2010;1.236.739
+11 Cï¿½diz;Total;2009;1.230.594
+11 Cï¿½diz;Total;2008;1.220.467
+11 Cï¿½diz;Total;2007;1.207.343
+11 Cï¿½diz;Total;2006;1.194.062
+11 Cï¿½diz;Total;2005;1.180.817
+11 Cï¿½diz;Total;2004;1.164.374
+11 Cï¿½diz;Total;2003;1.155.724
+11 Cï¿½diz;Total;2002;1.140.793
+11 Cï¿½diz;Total;2001;1.131.346
+11 Cï¿½diz;Total;2000;1.125.105
+11 Cï¿½diz;Total;1999;1.119.802
+11 Cï¿½diz;Total;1998;1.107.484
+11 Cï¿½diz;Total;1997;""
+11 Cï¿½diz;Total;1996;1.105.762
+39 Cantabria;Total;2023;586.245
 39 Cantabria;Total;2021;584.507
 39 Cantabria;Total;2020;582.905
 39 Cantabria;Total;2019;581.078
@@ -389,32 +404,34 @@ Total;Total;1996;39.669.394
 39 Cantabria;Total;1998;527.137
 39 Cantabria;Total;1997;""
 39 Cantabria;Total;1996;527.437
-12 Castellón/Castelló;Total;2021;587.064
-12 Castellón/Castelló;Total;2020;585.590
-12 Castellón/Castelló;Total;2019;579.962
-12 Castellón/Castelló;Total;2018;576.898
-12 Castellón/Castelló;Total;2017;575.470
-12 Castellón/Castelló;Total;2016;579.245
-12 Castellón/Castelló;Total;2015;582.327
-12 Castellón/Castelló;Total;2014;587.508
-12 Castellón/Castelló;Total;2013;601.699
-12 Castellón/Castelló;Total;2012;604.564
-12 Castellón/Castelló;Total;2011;604.344
-12 Castellón/Castelló;Total;2010;604.274
-12 Castellón/Castelló;Total;2009;602.301
-12 Castellón/Castelló;Total;2008;594.915
-12 Castellón/Castelló;Total;2007;573.282
-12 Castellón/Castelló;Total;2006;559.761
-12 Castellón/Castelló;Total;2005;543.432
-12 Castellón/Castelló;Total;2004;527.345
-12 Castellón/Castelló;Total;2003;518.239
-12 Castellón/Castelló;Total;2002;501.237
-12 Castellón/Castelló;Total;2001;485.173
-12 Castellón/Castelló;Total;2000;474.385
-12 Castellón/Castelló;Total;1999;467.895
-12 Castellón/Castelló;Total;1998;461.712
-12 Castellón/Castelló;Total;1997;""
-12 Castellón/Castelló;Total;1996;456.727
+12 Castellï¿½n/Castellï¿½;Total;2023;589.356
+12 Castellï¿½n/Castellï¿½;Total;2021;587.064
+12 Castellï¿½n/Castellï¿½;Total;2020;585.590
+12 Castellï¿½n/Castellï¿½;Total;2019;579.962
+12 Castellï¿½n/Castellï¿½;Total;2018;576.898
+12 Castellï¿½n/Castellï¿½;Total;2017;575.470
+12 Castellï¿½n/Castellï¿½;Total;2016;579.245
+12 Castellï¿½n/Castellï¿½;Total;2015;582.327
+12 Castellï¿½n/Castellï¿½;Total;2014;587.508
+12 Castellï¿½n/Castellï¿½;Total;2013;601.699
+12 Castellï¿½n/Castellï¿½;Total;2012;604.564
+12 Castellï¿½n/Castellï¿½;Total;2011;604.344
+12 Castellï¿½n/Castellï¿½;Total;2010;604.274
+12 Castellï¿½n/Castellï¿½;Total;2009;602.301
+12 Castellï¿½n/Castellï¿½;Total;2008;594.915
+12 Castellï¿½n/Castellï¿½;Total;2007;573.282
+12 Castellï¿½n/Castellï¿½;Total;2006;559.761
+12 Castellï¿½n/Castellï¿½;Total;2005;543.432
+12 Castellï¿½n/Castellï¿½;Total;2004;527.345
+12 Castellï¿½n/Castellï¿½;Total;2003;518.239
+12 Castellï¿½n/Castellï¿½;Total;2002;501.237
+12 Castellï¿½n/Castellï¿½;Total;2001;485.173
+12 Castellï¿½n/Castellï¿½;Total;2000;474.385
+12 Castellï¿½n/Castellï¿½;Total;1999;467.895
+12 Castellï¿½n/Castellï¿½;Total;1998;461.712
+12 Castellï¿½n/Castellï¿½;Total;1997;""
+12 Castellï¿½n/Castellï¿½;Total;1996;456.727
+13 Ciudad Real;Total;2021;494.356
 13 Ciudad Real;Total;2021;492.591
 13 Ciudad Real;Total;2020;495.045
 13 Ciudad Real;Total;2019;495.761
@@ -441,58 +458,61 @@ Total;Total;1996;39.669.394
 13 Ciudad Real;Total;1998;479.474
 13 Ciudad Real;Total;1997;""
 13 Ciudad Real;Total;1996;478.672
-14 Córdoba;Total;2021;776.789
-14 Córdoba;Total;2020;781.451
-14 Córdoba;Total;2019;782.979
-14 Córdoba;Total;2018;785.240
-14 Córdoba;Total;2017;788.219
-14 Córdoba;Total;2016;791.610
-14 Córdoba;Total;2015;795.611
-14 Córdoba;Total;2014;799.402
-14 Córdoba;Total;2013;802.422
-14 Córdoba;Total;2012;804.498
-14 Córdoba;Total;2011;805.857
-14 Córdoba;Total;2010;805.108
-14 Córdoba;Total;2009;803.998
-14 Córdoba;Total;2008;798.822
-14 Córdoba;Total;2007;792.182
-14 Córdoba;Total;2006;788.287
-14 Córdoba;Total;2005;784.376
-14 Córdoba;Total;2004;779.870
-14 Córdoba;Total;2003;775.944
-14 Córdoba;Total;2002;771.131
-14 Córdoba;Total;2001;769.625
-14 Córdoba;Total;2000;769.237
-14 Córdoba;Total;1999;768.676
-14 Córdoba;Total;1998;767.175
-14 Córdoba;Total;1997;""
-14 Córdoba;Total;1996;761.401
-15 Coruña, A;Total;2021;1.120.134
-15 Coruña, A;Total;2020;1.121.815
-15 Coruña, A;Total;2019;1.119.596
-15 Coruña, A;Total;2018;1.119.351
-15 Coruña, A;Total;2017;1.120.294
-15 Coruña, A;Total;2016;1.122.799
-15 Coruña, A;Total;2015;1.127.196
-15 Coruña, A;Total;2014;1.132.735
-15 Coruña, A;Total;2013;1.138.161
-15 Coruña, A;Total;2012;1.143.911
-15 Coruña, A;Total;2011;1.147.124
-15 Coruña, A;Total;2010;1.146.458
-15 Coruña, A;Total;2009;1.145.488
-15 Coruña, A;Total;2008;1.139.121
-15 Coruña, A;Total;2007;1.132.792
-15 Coruña, A;Total;2006;1.129.141
-15 Coruña, A;Total;2005;1.126.707
-15 Coruña, A;Total;2004;1.121.344
-15 Coruña, A;Total;2003;1.120.814
-15 Coruña, A;Total;2002;1.111.886
-15 Coruña, A;Total;2001;1.108.002
-15 Coruña, A;Total;2000;1.108.419
-15 Coruña, A;Total;1999;1.108.980
-15 Coruña, A;Total;1998;1.106.325
-15 Coruña, A;Total;1997;""
-15 Coruña, A;Total;1996;1.110.302
+14 Cï¿½rdoba;Total;2023;775.364
+14 Cï¿½rdoba;Total;2021;776.789
+14 Cï¿½rdoba;Total;2020;781.451
+14 Cï¿½rdoba;Total;2019;782.979
+14 Cï¿½rdoba;Total;2018;785.240
+14 Cï¿½rdoba;Total;2017;788.219
+14 Cï¿½rdoba;Total;2016;791.610
+14 Cï¿½rdoba;Total;2015;795.611
+14 Cï¿½rdoba;Total;2014;799.402
+14 Cï¿½rdoba;Total;2013;802.422
+14 Cï¿½rdoba;Total;2012;804.498
+14 Cï¿½rdoba;Total;2011;805.857
+14 Cï¿½rdoba;Total;2010;805.108
+14 Cï¿½rdoba;Total;2009;803.998
+14 Cï¿½rdoba;Total;2008;798.822
+14 Cï¿½rdoba;Total;2007;792.182
+14 Cï¿½rdoba;Total;2006;788.287
+14 Cï¿½rdoba;Total;2005;784.376
+14 Cï¿½rdoba;Total;2004;779.870
+14 Cï¿½rdoba;Total;2003;775.944
+14 Cï¿½rdoba;Total;2002;771.131
+14 Cï¿½rdoba;Total;2001;769.625
+14 Cï¿½rdoba;Total;2000;769.237
+14 Cï¿½rdoba;Total;1999;768.676
+14 Cï¿½rdoba;Total;1998;767.175
+14 Cï¿½rdoba;Total;1997;""
+14 Cï¿½rdoba;Total;1996;761.401
+15 Coruï¿½a, A;Total;2023;1.120.245
+15 Coruï¿½a, A;Total;2021;1.120.134
+15 Coruï¿½a, A;Total;2020;1.121.815
+15 Coruï¿½a, A;Total;2019;1.119.596
+15 Coruï¿½a, A;Total;2018;1.119.351
+15 Coruï¿½a, A;Total;2017;1.120.294
+15 Coruï¿½a, A;Total;2016;1.122.799
+15 Coruï¿½a, A;Total;2015;1.127.196
+15 Coruï¿½a, A;Total;2014;1.132.735
+15 Coruï¿½a, A;Total;2013;1.138.161
+15 Coruï¿½a, A;Total;2012;1.143.911
+15 Coruï¿½a, A;Total;2011;1.147.124
+15 Coruï¿½a, A;Total;2010;1.146.458
+15 Coruï¿½a, A;Total;2009;1.145.488
+15 Coruï¿½a, A;Total;2008;1.139.121
+15 Coruï¿½a, A;Total;2007;1.132.792
+15 Coruï¿½a, A;Total;2006;1.129.141
+15 Coruï¿½a, A;Total;2005;1.126.707
+15 Coruï¿½a, A;Total;2004;1.121.344
+15 Coruï¿½a, A;Total;2003;1.120.814
+15 Coruï¿½a, A;Total;2002;1.111.886
+15 Coruï¿½a, A;Total;2001;1.108.002
+15 Coruï¿½a, A;Total;2000;1.108.419
+15 Coruï¿½a, A;Total;1999;1.108.980
+15 Coruï¿½a, A;Total;1998;1.106.325
+15 Coruï¿½a, A;Total;1997;""
+15 Coruï¿½a, A;Total;1996;1.110.302
+16 Cuenca;Total;2023;194.134
 16 Cuenca;Total;2021;195.516
 16 Cuenca;Total;2020;196.139
 16 Cuenca;Total;2019;196.329
@@ -519,6 +539,7 @@ Total;Total;1996;39.669.394
 16 Cuenca;Total;1998;199.086
 16 Cuenca;Total;1997;""
 16 Cuenca;Total;1996;201.712
+20 Gipuzkoa;Total;2023;725.356
 20 Gipuzkoa;Total;2021;726.033
 20 Gipuzkoa;Total;2020;727.121
 20 Gipuzkoa;Total;2019;723.576
@@ -545,6 +566,7 @@ Total;Total;1996;39.669.394
 20 Gipuzkoa;Total;1998;676.439
 20 Gipuzkoa;Total;1997;""
 20 Gipuzkoa;Total;1996;676.208
+17 Girona;Total;2023;788.345
 17 Girona;Total;2021;786.596
 17 Girona;Total;2020;781.788
 17 Girona;Total;2019;771.044
@@ -571,6 +593,7 @@ Total;Total;1996;39.669.394
 17 Girona;Total;1998;543.191
 17 Girona;Total;1997;""
 17 Girona;Total;1996;530.631
+18 Granada;Total;2023;921.334
 18 Granada;Total;2021;921.338
 18 Granada;Total;2020;919.168
 18 Granada;Total;2019;914.678
@@ -597,6 +620,7 @@ Total;Total;1996;39.669.394
 18 Granada;Total;1998;801.177
 18 Granada;Total;1997;""
 18 Granada;Total;1996;808.053
+19 Guadalajara;Total;2023;265.335
 19 Guadalajara;Total;2021;265.588
 19 Guadalajara;Total;2020;261.995
 19 Guadalajara;Total;2019;257.762
@@ -623,7 +647,7 @@ Total;Total;1996;39.669.394
 19 Guadalajara;Total;1998;159.331
 19 Guadalajara;Total;1997;""
 19 Guadalajara;Total;1996;157.255
-21 Huelva;Total;2021;525.835
+21 Huelva;Total;2023;525.835
 21 Huelva;Total;2020;524.278
 21 Huelva;Total;2019;521.870
 21 Huelva;Total;2018;519.932
@@ -649,7 +673,7 @@ Total;Total;1996;39.669.394
 21 Huelva;Total;1998;453.958
 21 Huelva;Total;1997;""
 21 Huelva;Total;1996;454.735
-22 Huesca;Total;2021;224.264
+22 Huesca;Total;2023;224.264
 22 Huesca;Total;2020;222.687
 22 Huesca;Total;2019;220.461
 22 Huesca;Total;2018;219.345
@@ -675,59 +699,59 @@ Total;Total;1996;39.669.394
 22 Huesca;Total;1998;204.956
 22 Huesca;Total;1997;""
 22 Huesca;Total;1996;206.916
-23 Jaén;Total;2021;627.190
-23 Jaén;Total;2020;631.381
-23 Jaén;Total;2019;633.564
-23 Jaén;Total;2018;638.099
-23 Jaén;Total;2017;643.484
-23 Jaén;Total;2016;648.250
-23 Jaén;Total;2015;654.170
-23 Jaén;Total;2014;659.033
-23 Jaén;Total;2013;664.916
-23 Jaén;Total;2012;670.242
-23 Jaén;Total;2011;670.600
-23 Jaén;Total;2010;670.761
-23 Jaén;Total;2009;669.782
-23 Jaén;Total;2008;667.438
-23 Jaén;Total;2007;664.742
-23 Jaén;Total;2006;662.751
-23 Jaén;Total;2005;660.284
-23 Jaén;Total;2004;654.458
-23 Jaén;Total;2003;651.565
-23 Jaén;Total;2002;647.387
-23 Jaén;Total;2001;645.781
-23 Jaén;Total;2000;645.711
-23 Jaén;Total;1999;649.662
-23 Jaén;Total;1998;645.792
-23 Jaén;Total;1997;""
-23 Jaén;Total;1996;648.551
-24 León;Total;2021;451.706
-24 León;Total;2020;456.439
-24 León;Total;2019;460.001
-24 León;Total;2018;463.746
-24 León;Total;2017;468.316
-24 León;Total;2016;473.604
-24 León;Total;2015;479.395
-24 León;Total;2014;484.694
-24 León;Total;2013;489.752
-24 León;Total;2012;494.451
-24 León;Total;2011;497.799
-24 León;Total;2010;499.284
-24 León;Total;2009;500.169
-24 León;Total;2008;500.200
-24 León;Total;2007;497.387
-24 León;Total;2006;498.223
-24 León;Total;2005;495.902
-24 León;Total;2004;492.720
-24 León;Total;2003;495.998
-24 León;Total;2002;496.655
-24 León;Total;2001;499.517
-24 León;Total;2000;502.155
-24 León;Total;1999;506.511
-24 León;Total;1998;506.365
-24 León;Total;1997;""
-24 León;Total;1996;517.191
-25 Lleida;Total;2021;439.727
+23 Jaï¿½n;Total;2023;627.190
+23 Jaï¿½n;Total;2020;631.381
+23 Jaï¿½n;Total;2019;633.564
+23 Jaï¿½n;Total;2018;638.099
+23 Jaï¿½n;Total;2017;643.484
+23 Jaï¿½n;Total;2016;648.250
+23 Jaï¿½n;Total;2015;654.170
+23 Jaï¿½n;Total;2014;659.033
+23 Jaï¿½n;Total;2013;664.916
+23 Jaï¿½n;Total;2012;670.242
+23 Jaï¿½n;Total;2011;670.600
+23 Jaï¿½n;Total;2010;670.761
+23 Jaï¿½n;Total;2009;669.782
+23 Jaï¿½n;Total;2008;667.438
+23 Jaï¿½n;Total;2007;664.742
+23 Jaï¿½n;Total;2006;662.751
+23 Jaï¿½n;Total;2005;660.284
+23 Jaï¿½n;Total;2004;654.458
+23 Jaï¿½n;Total;2003;651.565
+23 Jaï¿½n;Total;2002;647.387
+23 Jaï¿½n;Total;2001;645.781
+23 Jaï¿½n;Total;2000;645.711
+23 Jaï¿½n;Total;1999;649.662
+23 Jaï¿½n;Total;1998;645.792
+23 Jaï¿½n;Total;1997;""
+23 Jaï¿½n;Total;1996;648.551
+24 Leï¿½n;Total;2023;451.706
+24 Leï¿½n;Total;2020;456.439
+24 Leï¿½n;Total;2019;460.001
+24 Leï¿½n;Total;2018;463.746
+24 Leï¿½n;Total;2017;468.316
+24 Leï¿½n;Total;2016;473.604
+24 Leï¿½n;Total;2015;479.395
+24 Leï¿½n;Total;2014;484.694
+24 Leï¿½n;Total;2013;489.752
+24 Leï¿½n;Total;2012;494.451
+24 Leï¿½n;Total;2011;497.799
+24 Leï¿½n;Total;2010;499.284
+24 Leï¿½n;Total;2009;500.169
+24 Leï¿½n;Total;2008;500.200
+24 Leï¿½n;Total;2007;497.387
+24 Leï¿½n;Total;2006;498.223
+24 Leï¿½n;Total;2005;495.902
+24 Leï¿½n;Total;2004;492.720
+24 Leï¿½n;Total;2003;495.998
+24 Leï¿½n;Total;2002;496.655
+24 Leï¿½n;Total;2001;499.517
+24 Leï¿½n;Total;2000;502.155
+24 Leï¿½n;Total;1999;506.511
+24 Leï¿½n;Total;1998;506.365
+24 Leï¿½n;Total;1997;""
+24 Leï¿½n;Total;1996;517.191
+25 Lleida;Total;2023;439.727
 25 Lleida;Total;2020;438.517
 25 Lleida;Total;2019;434.930
 25 Lleida;Total;2018;432.866
@@ -753,7 +777,7 @@ Total;Total;1996;39.669.394
 25 Lleida;Total;1998;357.903
 25 Lleida;Total;1997;""
 25 Lleida;Total;1996;356.456
-27 Lugo;Total;2021;326.013
+27 Lugo;Total;2023;326.013
 27 Lugo;Total;2020;327.946
 27 Lugo;Total;2019;329.587
 27 Lugo;Total;2018;331.327
@@ -779,7 +803,7 @@ Total;Total;1996;39.669.394
 27 Lugo;Total;1998;367.751
 27 Lugo;Total;1997;""
 27 Lugo;Total;1996;370.303
-28 Madrid;Total;2021;6.751.251
+28 Madrid;Total;2023;6.751.251
 28 Madrid;Total;2020;6.779.888
 28 Madrid;Total;2019;6.663.394
 28 Madrid;Total;2018;6.578.079
@@ -805,32 +829,32 @@ Total;Total;1996;39.669.394
 28 Madrid;Total;1998;5.091.336
 28 Madrid;Total;1997;""
 28 Madrid;Total;1996;5.022.289
-29 Málaga;Total;2021;1.695.651
-29 Málaga;Total;2020;1.685.920
-29 Málaga;Total;2019;1.661.785
-29 Málaga;Total;2018;1.641.121
-29 Málaga;Total;2017;1.630.615
-29 Málaga;Total;2016;1.629.298
-29 Málaga;Total;2015;1.628.973
-29 Málaga;Total;2014;1.621.968
-29 Málaga;Total;2013;1.652.999
-29 Málaga;Total;2012;1.641.098
-29 Málaga;Total;2011;1.625.827
-29 Málaga;Total;2010;1.609.557
-29 Málaga;Total;2009;1.593.068
-29 Málaga;Total;2008;1.563.261
-29 Málaga;Total;2007;1.517.523
-29 Málaga;Total;2006;1.491.287
-29 Málaga;Total;2005;1.453.409
-29 Málaga;Total;2004;1.397.925
-29 Málaga;Total;2003;1.374.890
-29 Málaga;Total;2002;1.330.010
-29 Málaga;Total;2001;1.302.240
-29 Málaga;Total;2000;1.278.851
-29 Málaga;Total;1999;1.258.084
-29 Málaga;Total;1998;1.240.580
-29 Málaga;Total;1997;""
-29 Málaga;Total;1996;1.249.290
+29 Mï¿½laga;Total;2023;1.695.651
+29 Mï¿½laga;Total;2020;1.685.920
+29 Mï¿½laga;Total;2019;1.661.785
+29 Mï¿½laga;Total;2018;1.641.121
+29 Mï¿½laga;Total;2017;1.630.615
+29 Mï¿½laga;Total;2016;1.629.298
+29 Mï¿½laga;Total;2015;1.628.973
+29 Mï¿½laga;Total;2014;1.621.968
+29 Mï¿½laga;Total;2013;1.652.999
+29 Mï¿½laga;Total;2012;1.641.098
+29 Mï¿½laga;Total;2011;1.625.827
+29 Mï¿½laga;Total;2010;1.609.557
+29 Mï¿½laga;Total;2009;1.593.068
+29 Mï¿½laga;Total;2008;1.563.261
+29 Mï¿½laga;Total;2007;1.517.523
+29 Mï¿½laga;Total;2006;1.491.287
+29 Mï¿½laga;Total;2005;1.453.409
+29 Mï¿½laga;Total;2004;1.397.925
+29 Mï¿½laga;Total;2003;1.374.890
+29 Mï¿½laga;Total;2002;1.330.010
+29 Mï¿½laga;Total;2001;1.302.240
+29 Mï¿½laga;Total;2000;1.278.851
+29 Mï¿½laga;Total;1999;1.258.084
+29 Mï¿½laga;Total;1998;1.240.580
+29 Mï¿½laga;Total;1997;""
+29 Mï¿½laga;Total;1996;1.249.290
 30 Murcia;Total;2021;1.518.486
 30 Murcia;Total;2020;1.511.251
 30 Murcia;Total;2019;1.493.898
@@ -857,7 +881,7 @@ Total;Total;1996;39.669.394
 30 Murcia;Total;1998;1.115.068
 30 Murcia;Total;1997;""
 30 Murcia;Total;1996;1.097.249
-31 Navarra;Total;2021;661.537
+31 Navarra;Total;2023;661.537
 31 Navarra;Total;2020;661.197
 31 Navarra;Total;2019;654.214
 31 Navarra;Total;2018;647.554
@@ -883,7 +907,7 @@ Total;Total;1996;39.669.394
 31 Navarra;Total;1998;530.819
 31 Navarra;Total;1997;""
 31 Navarra;Total;1996;520.574
-32 Ourense;Total;2021;305.223
+32 Ourense;Total;2023;305.223
 32 Ourense;Total;2020;306.650
 32 Ourense;Total;2019;307.651
 32 Ourense;Total;2018;309.293
@@ -909,7 +933,7 @@ Total;Total;1996;39.669.394
 32 Ourense;Total;1998;344.170
 32 Ourense;Total;1997;""
 32 Ourense;Total;1996;346.913
-34 Palencia;Total;2021;159.123
+34 Palencia;Total;2023;159.123
 34 Palencia;Total;2020;160.321
 34 Palencia;Total;2019;160.980
 34 Palencia;Total;2018;162.035
@@ -935,7 +959,7 @@ Total;Total;1996;39.669.394
 34 Palencia;Total;1998;179.623
 34 Palencia;Total;1997;""
 34 Palencia;Total;1996;180.571
-35 Palmas, Las;Total;2021;1.128.539
+35 Palmas, Las;Total;2023;1.128.539
 35 Palmas, Las;Total;2020;1.131.065
 35 Palmas, Las;Total;2019;1.120.406
 35 Palmas, Las;Total;2018;1.109.175
@@ -961,7 +985,7 @@ Total;Total;1996;39.669.394
 35 Palmas, Las;Total;1998;849.863
 35 Palmas, Las;Total;1997;""
 35 Palmas, Las;Total;1996;834.085
-36 Pontevedra;Total;2021;944.275
+36 Pontevedra;Total;2023;944.275
 36 Pontevedra;Total;2020;945.408
 36 Pontevedra;Total;2019;942.665
 36 Pontevedra;Total;2018;941.772
@@ -987,7 +1011,7 @@ Total;Total;1996;39.669.394
 36 Pontevedra;Total;1998;906.298
 36 Pontevedra;Total;1997;""
 36 Pontevedra;Total;1996;915.104
-26 Rioja, La;Total;2021;319.796
+26 Rioja, La;Total;2023;319.796
 26 Rioja, La;Total;2020;319.914
 26 Rioja, La;Total;2019;316.798
 26 Rioja, La;Total;2018;315.675
@@ -1013,7 +1037,7 @@ Total;Total;1996;39.669.394
 26 Rioja, La;Total;1998;263.644
 26 Rioja, La;Total;1997;""
 26 Rioja, La;Total;1996;264.941
-37 Salamanca;Total;2021;327.338
+37 Salamanca;Total;2023;327.338
 37 Salamanca;Total;2020;329.245
 37 Salamanca;Total;2019;330.119
 37 Salamanca;Total;2018;331.473
@@ -1039,7 +1063,7 @@ Total;Total;1996;39.669.394
 37 Salamanca;Total;1998;349.550
 37 Salamanca;Total;1997;""
 37 Salamanca;Total;1996;353.020
-38 Santa Cruz de Tenerife;Total;2021;1.044.405
+38 Santa Cruz de Tenerife;Total;2023;1.044.405
 38 Santa Cruz de Tenerife;Total;2020;1.044.887
 38 Santa Cruz de Tenerife;Total;2019;1.032.983
 38 Santa Cruz de Tenerife;Total;2018;1.018.510
@@ -1065,7 +1089,7 @@ Total;Total;1996;39.669.394
 38 Santa Cruz de Tenerife;Total;1998;780.152
 38 Santa Cruz de Tenerife;Total;1997;""
 38 Santa Cruz de Tenerife;Total;1996;772.449
-40 Segovia;Total;2021;153.663
+40 Segovia;Total;2023;153.663
 40 Segovia;Total;2020;153.478
 40 Segovia;Total;2019;153.129
 40 Segovia;Total;2018;153.342
@@ -1091,7 +1115,7 @@ Total;Total;1996;39.669.394
 40 Segovia;Total;1998;146.755
 40 Segovia;Total;1997;""
 40 Segovia;Total;1996;147.770
-41 Sevilla;Total;2021;1.947.852
+41 Sevilla;Total;2023;1.947.852
 41 Sevilla;Total;2020;1.950.219
 41 Sevilla;Total;2019;1.942.389
 41 Sevilla;Total;2018;1.939.887
@@ -1117,7 +1141,7 @@ Total;Total;1996;39.669.394
 41 Sevilla;Total;1998;1.714.845
 41 Sevilla;Total;1997;""
 41 Sevilla;Total;1996;1.705.320
-42 Soria;Total;2021;88.747
+42 Soria;Total;2023;88.747
 42 Soria;Total;2020;88.884
 42 Soria;Total;2019;88.636
 42 Soria;Total;2018;88.600
@@ -1143,7 +1167,7 @@ Total;Total;1996;39.669.394
 42 Soria;Total;1998;91.593
 42 Soria;Total;1997;""
 42 Soria;Total;1996;92.848
-43 Tarragona;Total;2021;822.309
+43 Tarragona;Total;2023;822.309
 43 Tarragona;Total;2020;816.772
 43 Tarragona;Total;2019;804.664
 43 Tarragona;Total;2018;795.902
@@ -1169,7 +1193,7 @@ Total;Total;1996;39.669.394
 43 Tarragona;Total;1998;580.245
 43 Tarragona;Total;1997;""
 43 Tarragona;Total;1996;574.676
-44 Teruel;Total;2021;134.545
+44 Teruel;Total;2023;134.545
 44 Teruel;Total;2020;134.176
 44 Teruel;Total;2019;134.137
 44 Teruel;Total;2018;134.572
@@ -1195,7 +1219,7 @@ Total;Total;1996;39.669.394
 44 Teruel;Total;1998;136.840
 44 Teruel;Total;1997;""
 44 Teruel;Total;1996;138.211
-45 Toledo;Total;2021;709.403
+45 Toledo;Total;2023;709.403
 45 Toledo;Total;2020;703.772
 45 Toledo;Total;2019;694.844
 45 Toledo;Total;2018;687.391
@@ -1221,33 +1245,33 @@ Total;Total;1996;39.669.394
 45 Toledo;Total;1998;519.664
 45 Toledo;Total;1997;""
 45 Toledo;Total;1996;515.880
-46 Valencia/València;Total;2021;2.589.312
-46 Valencia/València;Total;2020;2.591.875
-46 Valencia/València;Total;2019;2.565.124
-46 Valencia/València;Total;2018;2.547.986
-46 Valencia/València;Total;2017;2.540.707
-46 Valencia/València;Total;2016;2.544.264
-46 Valencia/València;Total;2015;2.543.315
-46 Valencia/València;Total;2014;2.548.898
-46 Valencia/València;Total;2013;2.566.474
-46 Valencia/València;Total;2012;2.580.792
-46 Valencia/València;Total;2011;2.578.719
-46 Valencia/València;Total;2010;2.581.147
-46 Valencia/València;Total;2009;2.575.362
-46 Valencia/València;Total;2008;2.543.209
-46 Valencia/València;Total;2007;2.486.483
-46 Valencia/València;Total;2006;2.463.592
-46 Valencia/València;Total;2005;2.416.628
-46 Valencia/València;Total;2004;2.358.919
-46 Valencia/València;Total;2003;2.320.297
-46 Valencia/València;Total;2002;2.267.503
-46 Valencia/València;Total;2001;2.227.170
-46 Valencia/València;Total;2000;2.201.200
-46 Valencia/València;Total;1999;2.187.633
-46 Valencia/València;Total;1998;2.172.796
-46 Valencia/València;Total;1997;""
-46 Valencia/València;Total;1996;2.172.840
-47 Valladolid;Total;2021;519.361
+46 Valencia/Valï¿½ncia;Total;2023;2.589.312
+46 Valencia/Valï¿½ncia;Total;2020;2.591.875
+46 Valencia/Valï¿½ncia;Total;2019;2.565.124
+46 Valencia/Valï¿½ncia;Total;2018;2.547.986
+46 Valencia/Valï¿½ncia;Total;2017;2.540.707
+46 Valencia/Valï¿½ncia;Total;2016;2.544.264
+46 Valencia/Valï¿½ncia;Total;2015;2.543.315
+46 Valencia/Valï¿½ncia;Total;2014;2.548.898
+46 Valencia/Valï¿½ncia;Total;2013;2.566.474
+46 Valencia/Valï¿½ncia;Total;2012;2.580.792
+46 Valencia/Valï¿½ncia;Total;2011;2.578.719
+46 Valencia/Valï¿½ncia;Total;2010;2.581.147
+46 Valencia/Valï¿½ncia;Total;2009;2.575.362
+46 Valencia/Valï¿½ncia;Total;2008;2.543.209
+46 Valencia/Valï¿½ncia;Total;2007;2.486.483
+46 Valencia/Valï¿½ncia;Total;2006;2.463.592
+46 Valencia/Valï¿½ncia;Total;2005;2.416.628
+46 Valencia/Valï¿½ncia;Total;2004;2.358.919
+46 Valencia/Valï¿½ncia;Total;2003;2.320.297
+46 Valencia/Valï¿½ncia;Total;2002;2.267.503
+46 Valencia/Valï¿½ncia;Total;2001;2.227.170
+46 Valencia/Valï¿½ncia;Total;2000;2.201.200
+46 Valencia/Valï¿½ncia;Total;1999;2.187.633
+46 Valencia/Valï¿½ncia;Total;1998;2.172.796
+46 Valencia/Valï¿½ncia;Total;1997;""
+46 Valencia/Valï¿½ncia;Total;1996;2.172.840
+47 Valladolid;Total;2023;519.361
 47 Valladolid;Total;2020;520.649
 47 Valladolid;Total;2019;519.546
 47 Valladolid;Total;2018;519.851
@@ -1273,7 +1297,7 @@ Total;Total;1996;39.669.394
 47 Valladolid;Total;1998;492.029
 47 Valladolid;Total;1997;""
 47 Valladolid;Total;1996;490.205
-49 Zamora;Total;2021;168.725
+49 Zamora;Total;2023;168.725
 49 Zamora;Total;2020;170.588
 49 Zamora;Total;2019;172.539
 49 Zamora;Total;2018;174.549
@@ -1299,7 +1323,7 @@ Total;Total;1996;39.669.394
 49 Zamora;Total;1998;205.201
 49 Zamora;Total;1997;""
 49 Zamora;Total;1996;207.475
-50 Zaragoza;Total;2021;967.452
+50 Zaragoza;Total;2023;967.452
 50 Zaragoza;Total;2020;972.528
 50 Zaragoza;Total;2019;964.693
 50 Zaragoza;Total;2018;954.811
@@ -1325,7 +1349,7 @@ Total;Total;1996;39.669.394
 50 Zaragoza;Total;1998;841.438
 50 Zaragoza;Total;1997;""
 50 Zaragoza;Total;1996;842.419
-51 Ceuta;Total;2021;83.517
+51 Ceuta;Total;2023;83.517
 51 Ceuta;Total;2020;84.202
 51 Ceuta;Total;2019;84.777
 51 Ceuta;Total;2018;85.144
@@ -1351,7 +1375,7 @@ Total;Total;1996;39.669.394
 51 Ceuta;Total;1998;72.117
 51 Ceuta;Total;1997;""
 51 Ceuta;Total;1996;68.796
-52 Melilla;Total;2021;86.261
+52 Melilla;Total;2023;86.261
 52 Melilla;Total;2020;87.076
 52 Melilla;Total;2019;86.487
 52 Melilla;Total;2018;86.384

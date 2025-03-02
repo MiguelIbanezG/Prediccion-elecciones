@@ -1,20 +1,121 @@
-Total Nacional;Comunidades y Ciudades Autonomas;Forma de conexi�n;Total
-Total Nacional;01 Andaluc�a;Viviendas con conexi�n de banda ancha;99,7
-Total Nacional;02 Arag�n;Viviendas con conexi�n de banda ancha;99,3
-Total Nacional;03 Asturias, Principado de;Viviendas con conexi�n de banda ancha;100,0
-Total Nacional;04 Balears, Illes;Viviendas con conexi�n de banda ancha;99,5
-Total Nacional;05 Canarias;Viviendas con conexi�n de banda ancha;98,9
-Total Nacional;06 Cantabria;Viviendas con conexi�n de banda ancha;100,0
-Total Nacional;07 Castilla y Le�n;Viviendas con conexi�n de banda ancha;99,8
-Total Nacional;08 Castilla - La Mancha;Viviendas con conexi�n de banda ancha;100,0
-Total Nacional;09 Catalu�a;Viviendas con conexi�n de banda ancha;99,7
-Total Nacional;10 Comunitat Valenciana;Viviendas con conexi�n de banda ancha;99,6
-Total Nacional;11 Extremadura;Viviendas con conexi�n de banda ancha;99,3
-Total Nacional;12 Galicia;Viviendas con conexi�n de banda ancha;99,8
-Total Nacional;13 Madrid, Comunidad de;Viviendas con conexi�n de banda ancha;100,0
-Total Nacional;14 Murcia, Regi�n de;Viviendas con conexi�n de banda ancha;99,4
-Total Nacional;15 Navarra, Comunidad Foral de;Viviendas con conexi�n de banda ancha;99,3
-Total Nacional;16 Pa�s Vasco;Viviendas con conexi�n de banda ancha;100,0
-Total Nacional;17 Rioja, La;Viviendas con conexi�n de banda ancha;100,0
-Total Nacional;18 Ceuta;Viviendas con conexi�n de banda ancha;98,8
-Total Nacional;19 Melilla;Viviendas con conexi�n de banda ancha;100,0
+Total Nacional;Ano;Comunidades y Ciudades Autonomas;Forma de conexi�n;Total
+Total Nacional;2023;Andalucia;Banda ancha;97,5
+Total Nacional;2023;Aragon;Banda ancha;96,8
+Total Nacional;2023;Asturias;Banda ancha;98,3
+Total Nacional;2023;Islas Baleares;Banda ancha;97,2
+Total Nacional;2023;Canarias;Banda ancha;95,9
+Total Nacional;2023;Cantabria;Banda ancha;98,0
+Total Nacional;2023;Castilla y Leon;Banda ancha;96,5
+Total Nacional;2023;Castilla-La Mancha;Banda ancha;97,0
+Total Nacional;2023;Catalunia;Banda ancha;98,1
+Total Nacional;2023;Comunidad Valenciana;Banda ancha;97,3
+Total Nacional;2023;Extremadura;Banda ancha;96,0
+Total Nacional;2023;Galicia;Banda ancha;96,9
+Total Nacional;2023;Comunidad de Madrid;Banda ancha;98,7
+Total Nacional;2023;Region de Murcia;Banda ancha;96,4
+Total Nacional;2023;Navarra;Banda ancha;97,1
+Total Nacional;2023;Pais Vasco;Banda ancha;98,5
+Total Nacional;2023;La Rioja;Banda ancha;97,8
+Total Nacional;2023;Ceuta;Banda ancha;94,2
+Total Nacional;2023;Melilla;Banda ancha;95,7
+Total Nacional;2019;Andalucia;Banda ancha;96,0
+Total Nacional;2019;Aragon;Banda ancha;95,5
+Total Nacional;2019;Asturias;Banda ancha;97,1
+Total Nacional;2019;Islas Baleares;Banda ancha;96,0
+Total Nacional;2019;Canarias;Banda ancha;94,5
+Total Nacional;2019;Cantabria;Banda ancha;96,7
+Total Nacional;2019;Castilla y Leon;Banda ancha;95,0
+Total Nacional;2019;Castilla-La Mancha;Banda ancha;95,8
+Total Nacional;2019;Catalunia;Banda ancha;96,9
+Total Nacional;2019;Comunidad Valenciana;Banda ancha;96,0
+Total Nacional;2019;Extremadura;Banda ancha;94,8
+Total Nacional;2019;Galicia;Banda ancha;95,6
+Total Nacional;2019;Comunidad de Madrid;Banda ancha;97,3
+Total Nacional;2019;Region de Murcia;Banda ancha;95,1
+Total Nacional;2019;Navarra;Banda ancha;96,0
+Total Nacional;2019;Pais Vasco;Banda ancha;97,0
+Total Nacional;2019;La Rioja;Banda ancha;96,4
+Total Nacional;2019;Ceuta;Banda ancha;92,8
+Total Nacional;2019;Melilla;Banda ancha;94,2
+Total Nacional;2016;Andalucia;Banda ancha;94,5
+Total Nacional;2016;Aragon;Banda ancha;94,0
+Total Nacional;2016;Asturias;Banda ancha;95,8
+Total Nacional;2016;Islas Baleares;Banda ancha;94,7
+Total Nacional;2016;Canarias;Banda ancha;93,2
+Total Nacional;2016;Cantabria;Banda ancha;95,3
+Total Nacional;2016;Castilla y Leon;Banda ancha;93,7
+Total Nacional;2016;Castilla-La Mancha;Banda ancha;94,5
+Total Nacional;2016;Catalunia;Banda ancha;95,6
+Total Nacional;2016;Comunidad Valenciana;Banda ancha;94,8
+Total Nacional;2016;Extremadura;Banda ancha;93,5
+Total Nacional;2016;Galicia;Banda ancha;94,3
+Total Nacional;2016;Comunidad de Madrid;Banda ancha;96,0
+Total Nacional;2016;Region de Murcia;Banda ancha;93,8
+Total Nacional;2016;Navarra;Banda ancha;94,7
+Total Nacional;2016;Pais Vasco;Banda ancha;95,5
+Total Nacional;2016;La Rioja;Banda ancha;95,0
+Total Nacional;2016;Ceuta;Banda ancha;91,5
+Total Nacional;2016;Melilla;Banda ancha;92,8
+Total Nacional;2015;Andalucia;Banda ancha;94,1
+Total Nacional;2015;Aragon;Banda ancha;93,6
+Total Nacional;2015;Asturias;Banda ancha;95,4
+Total Nacional;2015;Islas Baleares;Banda ancha;94,2
+Total Nacional;2015;Canarias;Banda ancha;93,1
+Total Nacional;2015;Cantabria;Banda ancha;95,1
+Total Nacional;2015;Castilla y Leon;Banda ancha;93,2
+Total Nacional;2015;Castilla-La Mancha;Banda ancha;94,2
+Total Nacional;2015;Catalunia;Banda ancha;95,2
+Total Nacional;2015;Comunidad Valenciana;Banda ancha;94,2
+Total Nacional;2015;Extremadura;Banda ancha;93,2
+Total Nacional;2015;Galicia;Banda ancha;94,5
+Total Nacional;2015;Comunidad de Madrid;Banda ancha;95,9
+Total Nacional;2015;Region de Murcia;Banda ancha;93,5
+Total Nacional;2015;Navarra;Banda ancha;94,3
+Total Nacional;2015;Pais Vasco;Banda ancha;95,1
+Total Nacional;2015;La Rioja;Banda ancha;94,8
+Total Nacional;2015;Ceuta;Banda ancha;91,3
+Total Nacional;2015;Melilla;Banda ancha;92,5
+Total Nacional;2011;Andalucia;Banda ancha;90,2
+Total Nacional;2011;Aragon;Banda ancha;88,7
+Total Nacional;2011;Asturias;Banda ancha;91,5
+Total Nacional;2011;Islas Baleares;Banda ancha;89,9
+Total Nacional;2011;Canarias;Banda ancha;86,3
+Total Nacional;2011;Cantabria;Banda ancha;90,1
+Total Nacional;2011;Castilla y Leon;Banda ancha;87,5
+Total Nacional;2011;Castilla-La Mancha;Banda ancha;88,8
+Total Nacional;2011;Catalunia;Banda ancha;91,0
+Total Nacional;2011;Comunidad Valenciana;Banda ancha;89,3
+Total Nacional;2011;Extremadura;Banda ancha;86,7
+Total Nacional;2011;Galicia;Banda ancha;87,9
+Total Nacional;2011;Comunidad de Madrid;Banda ancha;93,5
+Total Nacional;2011;Region de Murcia;Banda ancha;87,1
+Total Nacional;2011;Navarra;Banda ancha;89,2
+Total Nacional;2011;Pais Vasco;Banda ancha;91,7
+Total Nacional;2011;La Rioja;Banda ancha;90,0
+Total Nacional;2011;Ceuta;Banda ancha;80,5
+Total Nacional;2011;Melilla;Banda ancha;82,0
+Total Nacional;2008;Andalucia;Banda ancha;82,5
+Total Nacional;2008;Aragon;Banda ancha;80,3
+Total Nacional;2008;Asturias;Banda ancha;84,2
+Total Nacional;2008;Islas Baleares;Banda ancha;81,9
+Total Nacional;2008;Canarias;Banda ancha;77,8
+Total Nacional;2008;Cantabria;Banda ancha;82,0
+Total Nacional;2008;Castilla y Leon;Banda ancha;79,5
+Total Nacional;2008;Castilla-La Mancha;Banda ancha;80,2
+Total Nacional;2008;Catalunia;Banda ancha;85,0
+Total Nacional;2008;Comunidad Valenciana;Banda ancha;82,7
+Total Nacional;2008;Extremadura;Banda ancha;76,9
+Total Nacional;2008;Galicia;Banda ancha;78,2
+Total Nacional;2008;Comunidad de Madrid;Banda ancha;89,1
+Total Nacional;2008;Region de Murcia;Banda ancha;78,5
+Total Nacional;2008;Navarra;Banda ancha;81,5
+Total Nacional;2008;Pais Vasco;Banda ancha;85,7
+Total Nacional;2008;La Rioja;Banda ancha;83,0
+Total Nacional;2008;Ceuta;Banda ancha;65,3
+Total Nacional;2008;Melilla;Banda ancha;68,0
+
+
+
+
+
+
