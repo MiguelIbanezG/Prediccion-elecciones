@@ -1,0 +1,92 @@
+Creación Base de datos.
+
+Descargamos de la pagina https://infoelectoral.interior.gob.es/es/elecciones-celebradas/area-de-descargas/ los datos de las elecciones de las Mesas del año 1996 hasta el 2023
+
+Primero llenamos un fichero elecciones09.csv con el codigo de Mesa, Municipio, Provincia y Comunidad de cada Año con el fichero 09xxxxxx.DAT (49.000 registros por año):
+
+ 	python3 llenar_codigos09.py
+
+Despues uso el fichero 03xxxxxx.DAT para extraer los partidos que se presentan, y creo el fichero partidos_clasificado.csv:
+
+ 	python3 crear_csv_partidos.py
+ 	
+Despues se modifica partidos_clasificado.csv para llena la columna "Clasificacion", para eso se calsidica cada partido uno individualmente en Izquierdas, Derechas, Centro Izquierda, Centro Derecha, Regionalista Izquierda o Regionalista Derecha.
+
+ 
+
+Despues uso el fichero 10xxxxxx.DAT y el elecciones09.csv de los partidos clasificados para llenar otro ficchero llamado elecciones10.csv con el codigo de Mesa, Municipio, Provincia, Comunidad, Votos Izquierda, Votos Derecha, Votos Centro Izquierda, Votos Centro Derecha, Votos Regionalista Izquierda y Votos Regionalista Derecha de cada Año (607.000 registros por año):
+
+	python3 llenar_votos10DAT.py
+	
+Despues con elecciones10.csv se llenan las columnas Votos Izquierda, Votos Derecha, Votos Centro Izquierda, Votos Centro Derecha, Votos Regionalista Izquierda y Votos Regionalista Derecha de cada Año de elecciones09.csv para agrupar los votos por cada mesa (no se pierden datos y se reduce el numero de registros de 607.000 por año a 49.000 por año)
+	
+	python3 10_09.py
+
+Despues de eliminan los duplicados (mismo año, mesa, comunidad, provincia y municipio) de elecciones09.csv, se reducen registros sin perder datos, de 49.000 a 13.000 registros por año (eleccionesDB09_sindup.csv)
+
+	python3 eliminar_duplicados.py
+
+Para rellenar la tasa de participación se ha creado otro script que usa los datos de los ficheros .DAT para calcular la participación de cada Provincia crear el fichero participacion.csv
+
+	python3 participacion.py
+
+Para rellenar la Edad Media de cada provincia se ha descargado de la pagina del INE https://www.ine.es/jaxiT3/Tabla.htm?t=3199&L=0 los datos de Edad Media de cada Provincia de cada año (Edad_media_ine.csv), despues se ha creado un script de pythom que rellena el csv con esos datos (edad_media.csv):
+
+	python3 Edad_Media.py
+
+Para Rellenar las ecolarización de cada provincia, se descarga del INE (https://www.ine.es/jaxi/Datos.htm?path=/t25/p444/a2003/l0/&file=educ019.px) en nivel de alfabetismo de cada provincia por año y se guarda en el csv educ019.csv, luego se crea un script para llenar nuestro csv con esos datos (escaolrización_bueno.csv)
+
+	python3 llenar_escolari.py
+
+Para Rellenar la esperanza de vida de cada provincia, se descarga del INE (https://www.ine.es/jaxiT3/Datos.htm?t=1485) la esperanza de vida de cada provincia por año y se guarda en el csv esperanzaVida.csv, luego se crea un script para llenar nuestro csv con esos datos (esperanza.csv)
+
+	python3 esperanza_vida.py
+
+Para Rellenar los habitantes por provincia, se descarga del INE (https://www.ine.es/jaxiT3/Datos.htm?t=2852) la poblacion de cada provincia por año y se guarda en el csv poblacion.csv, luego se crea un script para llenar nuestro csv con esos datos (habitantes.csv)
+
+		python3 habitantes.py
+
+Para Rellenar el acceso a internet por comunidad (no se han encontrado datos oficiales por provincia) see descarga del INE (https://www.ine.es/jaxi/Tabla.htm?tpx=39494&L=0) el porcenatje de viviendas con acceso a internet y se guarda en el csv viviendas_con_internet.csv, luego se crea un script para llenar nuestro csv con esos datos (acceso_a_internet.csv)
+
+	python3 internet.py
+
+Para rellenar el % de mujeres se hace en varios pasos, primero se descarga del INE un csv con la pblacion total y la de mujeres (https://www.ine.es/jaxi/Datos.htm?path=/t20/e245/p08/l0/&file=03002.px)
+el csv se llama muejeres_y_total.csv. Despues se crea otro csv con el %de mujeres por provincia y de todos los años:
+
+	python3 crear_csv_%mujeres.py
+
+Luego con ese csv se rellan nuetro csv con otro script  %mujeres.csv
+
+	python3 llenar_%mujeres.py
+
+Para Rellenar la inmigracion por provincia se descarga del INE (https://www.ine.es/jaxi/Tabla.htm?path=/t20/e245/p08/l0/&file=03005.px) el numero de inigrantes por provincia y se guarda en el csv inmigracion.csv, luego se crea un script para llenar nuestro csv con esos datos (inmigracion_f.csv)
+
+	python3 inmigracion.py
+
+Para Rellenar la Tasa de pobreza por comunidad (no hay datos oficiales por provincia ni anteriores a 2008) se descarga del INE (https://www.ine.es/jaxiT3/Tabla.htm?t=9963) el porcentaje de poblacion en riesgo de pobreza por comunidad y se guarda en el csv tasa_pobreza.csv, luego se crea un script para llenar nuestro csv con esos datos (pobreza.csv)
+
+	python3 tasa_pobreza.py
+
+Para Rellenar la Tasa de paro por provincia se descarga del INE (https://www.ine.es/jaxiT3/Datos.htm?t=3996   https://www.ine.es/jaxiT3/Datos.htm?t=5399) la tasa de paro y se guarda en los en el csv paro_2005_2013.csv y paro_2021_2023.csv, luego se crea un script para llenar nuestro csv con esos datos (paro.csv)
+
+	python3 desempleo.py 
+
+Para Rellenar la criminalidad provincia se descarga del INE (https://www.ine.es/jaxiT3/Datos.htm?t=49055) el numero de delitos por por proviencia y se guarda en los en el csv criminalidad_2013.csv, luego se crea un script para llenar nuestro csv con esos datos (criminalidad.csv)
+
+	python3 criminalidad.py 
+
+Para llenar el PIB per capita primero se ha descargado del INE un fichero xlsx pre_cre.xlsx (https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736167628&menu=resultados&idp=1254735576581), se ha modificao un poco a mano para eliminar los datos innecesarios y depues se ha pasado a csv (PIB.csv), despues se ha crado un script para rellenar la columna PIB per capita por provincia
+
+	python3 PIB.py
+
+Para llenar la candidatura ganadora se ha buscado los ganadores de cada año (de 1996 a 2023) y se ha generado un script que rellene la columna:
+
+	python3 candidatura_ganadora.py
+
+Para llenar el gobierno actual se ha buscado los quien gobernaba en las elecciones de cada año (de 1996 a 2023) y se ha generado un script que rellene la columna:
+
+	python3 gobierno_actual.py
+
+Para llenar la columna de gobierno por comunidad se ha usado esta pagina https://es.wikipedia.org/wiki/Anexo:Presidencias_auton%C3%B3micas_espa%C3%B1olas a partir de ella se ha creado un csv (autonomas_gobierno.csv), despues se ha creaod un script para clasificar cada partido y generar partidos_con_idelogia.csv
+
+	python3 autonomas.py
